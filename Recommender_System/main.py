@@ -21,7 +21,7 @@ model = tensorflow.keras.Sequential([
     GlobalMaxPooling2D()
 ])
 
-st.title('Fashion Recommender System')
+st.title('Recommender System')
 
 # to upload the file - this code is required
 def save_uploaded_file(uploaded_file):
